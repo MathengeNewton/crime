@@ -30,7 +30,7 @@
 
 			<ul class="nav navbar-nav">
 
-				<a href="index.php"><img src="../images/logo.png" height="60px"></a>
+				<a href="../index.php"><img src="../images/logo.png" height="60px"></a>
 
 			</ul>
 
