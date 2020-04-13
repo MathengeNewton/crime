@@ -36,13 +36,13 @@
 
        		<ul class="nav navbar-nav navbar-right">
 
-				<li><a href="../index">Report Crime</a></li>
+				<li><a href="../index.php">Report Crime</a></li>
 <!-- 
 				<li ><a href="../about_us">About Us</a></li> -->
 
-				<li><a href="crime_list">Crimes</a></li>
+				<li><a href="./crime_list.php">Crimes</a></li>
 
-				<li><a href="feedback_list">Feedback</a></li>
+				<li><a href="./feedback_list.php">Feedback</a></li>
 
 				<li><a href="#"></a></li>
 

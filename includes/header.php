@@ -1,6 +1,4 @@
-<!doctype html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 
@@ -25,18 +23,15 @@
 
 		<ul class="nav navbar-nav navbar-right">
 
-			<li><a href="login.php">admin</a></li>
+			<li><a href="./login.php">admin</a></li>
 
-			<li><a href="index.php">Report Crime</a></li>
+			<li><a href="./index.php">Report Crime</a></li>
 
-			<li><a href="about_us.php">About Us</a></li>
+			<li><a href="./about_us.php">About Us</a></li>
 
-			<li><a href="how_to.php">How to</a></li>
+			<li><a href="./how_to.php">How to</a></li>
 
-			<li><a href="feedback.php">Rate Us</a></li>
-
-			<li><a href="#"></a></li>
-
+			<li><a href="./feedback.php">Rate Us</a></li>
 		</ul>
 	</div>
 </nav>

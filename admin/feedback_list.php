@@ -6,8 +6,9 @@ include '../connection.php';
 
 $query	=	"SELECT * FROM feedback";
 
-$result = mysqli_query($con, $query) or die("Error fetching Data");
+$myresult = mysqli_query($con, $query) or die("Error fetching Data");
 
+$result = mysqli_fetch_array($myresult)
 
  ?>
 
@@ -31,33 +32,24 @@ $result = mysqli_query($con, $query) or die("Error fetching Data");
 
 			<th>Phone</th>
 
-			<th>Description</th>
-
-			<th>Location</th>
-
-			<th>Time</th>
+			<th>message</th>
 
 			</tr>
 		</thead>
 
 		<tbody>
 			
-			<?php foreach($result as $row) { ?>
+			
 			
 		<tr class="">
-			<td><?php echo $row['feedback_id'] ?></td>
+			<td><?php echo $result[0] ?></td>
 
-			<td><?php echo $row['name'] ?></td>
+			<td><?php echo $result[1] ?></td>
 
-			<td><?php echo $row['phone'] ?></td>
-
-			<td><?php echo $row['message'] ?></td>
-
-			<td><?php echo $row['time_received'] ?></td>
-
+			<td><?php echo $result[2] ?></td>
 		</tr>
 
-		<?php } ?>
+		
 		
 	</tbody>
 	</table>
